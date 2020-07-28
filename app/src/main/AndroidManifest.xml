@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.trial2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="ARTsY"
+        android:roundIcon="@mipmap/logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" android:label="ARTsY">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Feed"  android:label="Home"
+            android:parentActivityName=".Feed">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Feed" />
+
+        </activity>
+        <activity android:name=".Explore"  android:label="Explore"
+            android:parentActivityName=".Feed">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Feed" />
+
+        </activity>
+        <activity android:name=".Profile"  android:label="Profile"
+            android:parentActivityName=".Feed">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Feed" />
+
+        </activity>
+        <activity android:name=".Image"  android:label="Image"
+            android:parentActivityName=".Feed">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Feed" />
+
+        </activity>
+<!--        <activity android:name=".Image2"  android:label="Image"-->
+<!--            android:parentActivityName=".Feed">-->
+<!--            <meta-data-->
+<!--                android:name="android.support.PARENT_ACTIVITY"-->
+<!--                android:value=".Feed" />-->
+
+<!--        </activity>-->
+    </application>
+
+</manifest>

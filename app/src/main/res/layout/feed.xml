@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Discover"
+            android:fontFamily="@font/rf"
+            android:textColor="#13154A"
+            android:textSize="36dp"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            />
+
+        <TextView
+            android:id="@+id/more"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="More..."
+            android:fontFamily="@font/rf"
+            android:textColor="#13154A"
+            android:textSize="22dp"
+
+            android:paddingLeft="290dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/layout"
+            android:layout_height="wrap_content">
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:paddingTop="1dp"
+                android:paddingLeft="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/scrollimg"
+                        android:layout_width="200dp"
+                        android:background="#FFFFFF"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/d"
+                        android:onClick="display"/>
+                    <ImageView
+                        android:id="@id/scrollimg"
+                        android:layout_width="200dp"
+                        android:background="#FFFFFF"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:src="@drawable/d"
+                        android:onClick="display"/>
+                    <ImageView
+                        android:id="@id/scrollimg"
+                        android:layout_width="200dp"
+                        android:background="#FFFFFF"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:src="@drawable/d"
+                        android:onClick="display"/>
+                    <ImageView
+                        android:id="@id/scrollimg"
+                        android:layout_width="200dp"
+                        android:background="#FFFFFF"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:src="@drawable/d"
+                        android:onClick="display"/>
+                    <ImageView
+                        android:id="@id/scrollimg"
+                        android:layout_width="200dp"
+                        android:background="#FFFFFF"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:src="@drawable/d"
+                        android:onClick="display"/>
+                </LinearLayout>
+            </HorizontalScrollView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="30dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/rf"
+                android:paddingTop="20dp"
+                android:text="Feed"
+                android:textColor="#13154A"
+                android:textSize="36dp"
+                android:paddingLeft="10dp"
+
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <FrameLayout
+                    android:id="@+id/frame"
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp">
+
+                    <ImageView
+                        android:id="@+id/pic"
+                        android:layout_width="40dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/face" />
+
+                    <ImageView
+                        android:id="@+id/circle_crop"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/circle" />
+
+
+                </FrameLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ursula"
+                    android:fontFamily="@font/rf"
+                    android:textSize="22dp"
+                    android:textColor="#13154A"
+                    android:layout_marginTop="20dp"/>
+                <TextView
+
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/ic_repeat"
+                    android:layout_marginTop="18dp"
+                    android:layout_marginLeft="18dp"
+
+                    />
+
+
+
+
+
+            </LinearLayout>
+            <ImageView
+               android:id="@+id/ursulaimg"
+                android:layout_width="match_parent"
+                android:background="#c1c1c1"
+                android:layout_height="200dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:src="@drawable/art"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"/>
+<!--                android:onClick="display2"-->
+
+
+
+            <TextView
+                android:id="@+id/src"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Source: @Medieval Pieces"
+                android:layout_marginLeft="28dp"
+                android:textColor="#514D4D"
+                android:textSize="14sp"
+                android:fontFamily="@font/rf"
+                android:layout_marginBottom="5dp"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#999"
+                android:layout_marginLeft="28dp"
+                android:layout_marginRight="28dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp">
+
+                <TextView
+                    android:id="@+id/reshare"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+
+                    android:background="@drawable/ic_repeat" />
+                <TextView
+                    android:id="@+id/reshareText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" 91k"
+                    android:textSize="16sp"
+                    android:paddingTop="8dp"
+                    android:fontFamily="@font/rf"
+                    />
+
+                <TextView
+                    android:id="@+id/star"
+                    android:layout_marginLeft="24dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ic_star"
+
+                    />
+                <TextView
+                    android:id="@+id/starText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" 122k"
+                    android:textSize="16sp"
+                    android:paddingTop="8dp"
+                    android:fontFamily="@font/rf"
+                    />
+
+                <TextView
+                    android:id="@+id/msg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="24dp"
+
+                    android:background="@drawable/ic_msg"
+
+                    />
+                <TextView
+                    android:id="@+id/msgText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" 102"
+                    android:textSize="16sp"
+
+                    android:fontFamily="@font/rf"
+                    />
+                <TextView
+                    android:id="@+id/bookm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="24dp"
+                    android:background="@drawable/ic_bookm"
+
+                    />
+                <TextView
+                    android:id="@+id/bookmText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" "
+                    android:textColor="#FF1B1B"
+                    android:textSize="16sp"
+                    android:paddingTop="10dp"
+                    android:fontFamily="@font/rf"
+                    />
+
+
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#999"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="28dp"
+                android:layout_marginRight="28dp"/>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:fontFamily="@font/rf"
+                android:paddingLeft="30sp"
+                android:paddingRight="25sp"
+                android:text="I cannot begin to tell how remarkable this piece of art is and how inspiring it is!"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <!-- -->
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
