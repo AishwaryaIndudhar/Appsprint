@@ -47,6 +47,5 @@ Using the concept of custom Array Adapters and View Recycling we were able to sa
 
 ## APP DEV SUBMISSION*
 Language/framework used: Java - Android Studio
- - Video link: https://drive.google.com/file/d/11dT4XCeOnMGHfq5-Fn8m1cKabIN-H7wq/view?usp=sharing
----
+ - Video link: https://youtu.be/W-1z84HnN6E
 Developed for AppSprint'20.
