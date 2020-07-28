@@ -24,7 +24,7 @@
                 android:value=".Feed" />
 
         </activity>
-        <activity android:name=".Explore"  android:label="Explore"
+        <activity android:name=".Feedtest"  android:label="Explore"
             android:parentActivityName=".Feed">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -45,13 +45,13 @@
                 android:value=".Feed" />
 
         </activity>
-<!--        <activity android:name=".Image2"  android:label="Image"-->
-<!--            android:parentActivityName=".Feed">-->
-<!--            <meta-data-->
-<!--                android:name="android.support.PARENT_ACTIVITY"-->
-<!--                android:value=".Feed" />-->
+        <activity android:name=".Artistprofile"  android:label="Artist profile"
+            android:parentActivityName=".Feed">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Feed" />
 
-<!--        </activity>-->
+        </activity>
     </application>
 
 </manifest>

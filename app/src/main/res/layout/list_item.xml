@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/img1"
+        android:layout_width="99dp"
+        android:maxWidth="380dp"
+        android:layout_height="136dp"
+        android:src="@drawable/exp"
+        android:layout_marginTop="17dp"
+        android:layout_marginLeft="17dp"
+        android:scaleType="centerCrop"
+        android:onClick="display"/>
+    <ImageButton
+        android:id="@+id/img2"
+        android:layout_width="99dp"
+        android:layout_height="101dp"
+        android:src="@drawable/exp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="17dp"
+        android:scaleType="centerCrop"
+        android:onClick="display3"/>
+    <ImageButton
+        android:id="@+id/img3"
+        android:layout_width="99dp"
+        android:layout_height="136dp"
+
+        android:layout_marginLeft="17dp"
+
+        android:layout_marginTop="17dp"
+        android:src="@drawable/exp"
+        android:scaleType="centerCrop"
+        android:onClick="display2"
+        />
+</LinearLayout>

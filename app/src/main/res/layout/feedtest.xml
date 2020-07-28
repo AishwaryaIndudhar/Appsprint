@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="30dp">
+
+            <FrameLayout
+                android:id="@+id/frame"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp">
+
+                <ImageView
+                    android:id="@+id/pic"
+                    android:layout_width="40dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/face2"
+                    android:scaleType="centerCrop"/>
+
+                <ImageView
+                    android:id="@+id/circle_crop"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/circle" />
+
+
+            </FrameLayout>
+            <SearchView
+                android:layout_width="220dp"
+                android:layout_height="40dp"
+                android:background="#C4C4C4"
+                android:layout_marginTop="20dp"
+                android:contextClickable="true"/>
+
+
+
+        </LinearLayout>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/list"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+
+            tools:context="com.example.android.trial2.Feedtest"/>
+    </ScrollView>
+    </LinearLayout>

@@ -168,7 +168,8 @@
                 android:src="@drawable/art"
                 android:scaleType="centerCrop"
                 android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"/>
+                android:layout_marginBottom="10dp"
+                android:onClick="display2"/>
 <!--                android:onClick="display2"-->
 
 
